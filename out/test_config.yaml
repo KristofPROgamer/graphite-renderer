@@ -1,0 +1,14 @@
+seed: 7
+handedness: right
+working_res: 2048
+supersample: 2
+grades:
+- HB
+- 2B
+- 6B
+looseness: 1.0
+detail_threshold: 0.5
+hatch_angle: 45.0
+blend_amount: 0.5
+tooth_strength: 0.8
+paper_preset: cold_press

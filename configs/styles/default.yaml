@@ -1,0 +1,101 @@
+hair:
+  name: hair
+  kind: hatch
+  grade: 6B
+  width: 2.8
+  pressure: 0.7
+  jitter: 0.9
+  curvature: 0.18
+  spacing_multiplier: 0.9
+  blend_amount: 0.5
+  layer_set:
+    - L2_contour
+    - L3_texture
+skin:
+  name: skin
+  kind: tone
+  grade: HB
+  width: 2.2
+  pressure: 0.42
+  jitter: 0.7
+  curvature: 0.07
+  spacing_multiplier: 0.8
+  blend_amount: 0.35
+  layer_set:
+    - L1_tone
+cloth:
+  name: cloth
+  kind: hatch
+  grade: 2B
+  width: 2.6
+  pressure: 0.58
+  jitter: 1.1
+  curvature: 0.12
+  spacing_multiplier: 1.0
+  blend_amount: 0.45
+  layer_set:
+    - L1_tone
+    - L2_contour
+foliage:
+  name: foliage
+  kind: scribble
+  grade: 4B
+  width: 2.1
+  pressure: 0.6
+  jitter: 1.7
+  curvature: 0.25
+  spacing_multiplier: 1.2
+  blend_amount: 0.4
+  layer_set:
+    - L1_tone
+    - L3_texture
+sky:
+  name: sky
+  kind: hatch
+  grade: H
+  width: 1.8
+  pressure: 0.3
+  jitter: 0.6
+  curvature: 0.05
+  spacing_multiplier: 1.4
+  blend_amount: 0.22
+  layer_set:
+    - L1_tone
+stone:
+  name: stone
+  kind: dab
+  grade: HB
+  width: 1.4
+  pressure: 0.48
+  jitter: 1.1
+  curvature: 0.08
+  spacing_multiplier: 1.0
+  blend_amount: 0.2
+  layer_set:
+    - L3_texture
+    - stipple
+manmade:
+  name: manmade
+  kind: hatch
+  grade: H
+  width: 2.4
+  pressure: 0.55
+  jitter: 0.8
+  curvature: 0.04
+  spacing_multiplier: 0.75
+  blend_amount: 0.35
+  layer_set:
+    - L2_contour
+    - L1_tone
+generic:
+  name: generic
+  kind: hatch
+  grade: HB
+  width: 2.8
+  pressure: 0.52
+  jitter: 1.0
+  curvature: 0.1
+  spacing_multiplier: 1.0
+  blend_amount: 0.3
+  layer_set:
+    - L1_tone
